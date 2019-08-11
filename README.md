@@ -5,7 +5,7 @@ Unlike the stack and the heap, the bss and data segments don't have many of the 
 
 | File | Technique | Tested on | GCC Version |
 | - | - | - | - |
-| stat.c | Static variable overflow. | Ubuntu 18 (amd64) | 7.4.0 |
-| globalstatic.c | Static and global variable alterations with overflows. | Ubuntu 18 (amd64) | 7.4.0 |
-| backwardgot.c | Overwriting Global Offset Table entries with a backwards overflow. | Ubuntu 16 (amd64) | 7.4.0 |
-| aslrusage.c | Introduces a useful property of the BSS and data segments. | Ubuntu 18 (amd64) | 7.4.0 |
+| [stat.c](stat.c) | Static variable overflow. | Ubuntu 18 (amd64) | 7.4.0 |
+| [globalstatic.c](globalstatic.c) | Static and global variable alterations with overflows. | Ubuntu 18 (amd64) | 7.4.0 |
+| [backwardgot.c](backwardgot.c) | Overwriting Global Offset Table entries with a backwards overflow. | Ubuntu 16 (amd64) | 7.4.0 |
+| [aslrusage.c](aslrusage.c) | Introduces a useful property of the BSS and data segments. | Ubuntu 18 (amd64) | 7.4.0 |

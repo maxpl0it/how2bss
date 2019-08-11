@@ -1,5 +1,5 @@
 # how2bss
-After being inspired by Shellphish's how2heap, I decided to start my own little repo of bss and data segment exploitation techniques.
+After being inspired by [Shellphish](https://github.com/shellphish)'s [how2heap](https://github.com/shellphish/how2heap), I decided to start my own little repo of bss and data segment exploitation techniques.
 
 Unlike the stack and the heap, the bss and data segments don't have many of the same protections on them. There are no canaries between variables, bss and data addresses are unaffected by ASLR (Provided PIE is not enabled), and (with a special case) bss overflows can even be used to overwrite Global Offset Table entries.
 
